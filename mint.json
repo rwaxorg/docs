@@ -1,0 +1,62 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "USDR by RWAX Protocol",
+  "logo": {
+    "dark": "/logo/white.png",
+    "light": "/logo/black.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#395bbd",
+    "light": "#395bbd",
+    "dark": "#395bbd"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@rwax.org"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://rwax.org/"
+  },
+  "navigation": [
+    {
+      "group": "Real USD by RWAX - Stablecoin for RWA Adoption",
+      "pages": [
+        "welcome",
+        "need-for-usdr",
+        "role-of-usdr",
+        "basic-mechanism",
+        {
+          "group": "USDR Stablecoin",
+          "pages": [
+            "usdr-stablecoin/index",
+            "usdr-stablecoin/backing-and-peg",
+            "usdr-stablecoin/risk-and-safety"
+          ]
+        },
+        {
+          "group": "Minting",
+          "pages": ["minting-manual/index", "minting-manual/how-to-mint"]
+        },
+        "redemption-manual",
+        "liquid-staking",
+        "rwax-token-integration"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/RWAXorg",
+    "telegram": "https://t.me/RWAXorgchat"
+  },
+
+  "metadata": {
+    "og:url": "https://www.rwax.org/",
+    "og:type": "website",
+    "og:title": "RWAX Protocol",
+    "og:description": "Documentation - Real USD by RWAX - Stablecoin for RWA Adoption.",
+    "og:image": "https://pbs.twimg.com/profile_banners/1673486094963449856/1730376925/1500x500"
+  }
+}
