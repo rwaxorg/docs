@@ -23,27 +23,16 @@
   },
   "navigation": [
     {
-      "group": "Real USD by RWAX - Stablecoin for RWA Adoption",
+      "group": "RWAX docs",
       "pages": [
         "welcome",
-        "need-for-usdr",
-        "role-of-usdr",
-        "basic-mechanism",
-        {
-          "group": "USDR Stablecoin",
-          "pages": [
-            "usdr-stablecoin/index",
-            "usdr-stablecoin/backing-and-peg",
-            "usdr-stablecoin/risk-and-safety"
-          ]
-        },
-        {
-          "group": "Minting",
-          "pages": ["minting-manual/index", "minting-manual/how-to-mint"]
-        },
-        "redemption-manual",
-        "liquid-staking",
-        "rwax-token-integration"
+        "account-creation",
+        "navigating-the-app",
+        "adding-funds",
+        "basic-trading",
+        "asset-discovery",
+        "token-utility",
+        "faq"
       ]
     }
   ],
